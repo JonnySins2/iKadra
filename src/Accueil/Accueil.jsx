@@ -120,7 +120,7 @@ const Accueil = () => {
         <div className="container">
           <div className="header-content">
             <span className="logo" role="img" aria-label="Logo Kandra">iKandra</span>
-            {/* <div className="search-bar" role="search">
+            <div className="search-bar" role="search">
               <input
                 type="text"
                 placeholder="Rechercher un service..."
@@ -132,7 +132,7 @@ const Accueil = () => {
               <button className="search-btn" onClick={handleSearch} aria-label="Lancer la recherche">
                 <SearchOutlined />
               </button>
-            </div> */}
+            </div>
             <div className="header-actions">
               <button
                 className="btn btn-outline"

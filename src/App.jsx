@@ -2,6 +2,8 @@ import { Routes, Route } from 'react-router-dom';
 import Accueil from './Accueil/Accueil';
 import LoginPage from './Login/LoginPage';
 import Inscription from './Inscription/Inscription';
+import SellerDashboard from './Dashboard/SellerDashboard/SellerDashboard';
+import ClientDashboard from './Dashboard/ClientDashboard/ClientDashboard';
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
       <Route path="/service/:id" element={<div>Page de service</div>} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/Inscription" element={<Inscription />} />
-      <Route path="/seller" element={<div>Page vendeur</div>} />
+      <Route path="/seller" element={<SellerDashboard/>} />
+      <Route path="/client" element={<ClientDashboard/>} />
       <Route path="/about" element={<div>Page à propos</div>} />
       <Route path="/careers" element={<div>Page carrières</div>} />
       <Route path="/press" element={<div>Page presse</div>} />
